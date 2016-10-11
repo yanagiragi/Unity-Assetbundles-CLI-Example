@@ -1,5 +1,5 @@
 SET UNITYPATH="C:\Program Files\Unity\Editor\Unity.exe"
-SET CREATEPROJECTPATH="C:\temp\\Create Asset bundles"
+SET CREATEPROJECTPATH="C:\temp\Create Asset bundles"
 SET BUILDPATH="C:\temp\build.exe"
 SET UNITYUSER="yanagiragi"
 
