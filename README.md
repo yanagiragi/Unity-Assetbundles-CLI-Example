@@ -19,7 +19,7 @@ SET UNITYUSER= you Unity Account
 
 ### Demo
 5. Click "buildAssetbundle.bat", wait for console disappear (it may last for seconds)<br /><br />
-6. open the build path, you shall see a folder "StreamingAssets", copy the file "testbundle" and "testbundle.manifest" into the folder you created in Step 1 in "Before you clone..."<br />(Or you may change parameters in Step2 in "Before you clone..." to <code>your_build_path/StreamingAssets/testbundle</code>, though I don't recommend it)<br /><br />
+6. open the build path, you shall see a folder "StreamingAssets", copy the file "testbundle" and "testbundle.manifest" into the folder you created in Step 1 in "Before you clone..."<br />(Or you may change the parameter in Step2 in "Before you clone..." to <code>your_build_path/StreamingAssets/testbundle</code>, though I don't recommend it)<br /><br />
 7. Build Unity Project "Instantiate Assetbundles" (this step only need to be done once), Open executable build, you will see a big white covered model in the scene. <br /><br />
 8. (Optional) Usage : <br />
   4-1. copy you model into <code>path_of_"Create Asset bundles"/Assets/Pinocchio.fbx</code><br />
