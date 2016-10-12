@@ -9,8 +9,12 @@ public class test : MonoBehaviour {
 
 		AssetBundle bundle = AssetBundle.LoadFromFile (bundlePath);
 
-		GameObject target = bundle.LoadAssetAsync ("Pinocchio").asset as GameObject;
+		// GameObject target = bundle.LoadAssetAsync ("Pinocchio").asset as GameObject;
+		GameObject target = bundle.LoadAsset ("Pinocchio").asset as GameObject;
 
+		/* My Recommandation is to not using Async, it appears to possible trigger error "m_Instance != 0" */
+		/* Reference : http://stackoverflow.com/questions/39628951/error-m-instanceid-0-when-downloading-texture-from-the-server */
+		
 		GameObject i_target = Instantiate (target);
 
 		/* Since Material may lost if not collect dependencies or other reasons, such as BUG, re-targeting material again */
