@@ -5,7 +5,7 @@ A sweet example of using assetbundles in unity
 <br />
 # How to Use
 ### Before you clone project and start, you may need to change:<br /><br />
-1. Create An folder to store assetbundles, named waht ever you like<br /><br />
+1. Create An folder to store assetbundles, named what ever you like<br /><br />
 2. Open Unity Project "Instantiate Assetbundles", Click "Main Camera", you'll find a component called "test(Script)" in Inspector,
 change the paramter to the path of the folder you just create. However leave <code>/testbundle</code> at bottom.<br /><br />
 3. Open "buildAssetbundle.bat" and modified parameters above<br /><br />
