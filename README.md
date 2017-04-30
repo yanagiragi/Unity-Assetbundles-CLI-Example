@@ -3,7 +3,9 @@ A sweet example of using assetbundles in unity
 
 #### Purpose: Using Command line construct different Assetbundles after copying different assets into project folder
 <br />
+
 # How to Use
+
 ### Before you clone project and start, you may need to change:<br /><br />
 1. Create An folder to store assetbundles, named what ever you like<br /><br />
 2. Open Unity Project "Instantiate Assetbundles", Click "Main Camera", you'll find a component called "test(Script)" in Inspector,
